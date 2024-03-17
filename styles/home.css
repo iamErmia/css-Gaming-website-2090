@@ -9,6 +9,9 @@
   background-color: #3b2a9f;
   font-family: poppins;
   color: white;
+  min-width: 768px;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar{
@@ -29,13 +32,13 @@
     justify-content: space-between;
     gap: 50px;
     align-items: center;
+    
 }
 
 .nav-home-button{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 5px;
+    
 }
 
 .game-button{
@@ -47,4 +50,9 @@
     background-color: #FA8305;
     border-radius: 15px;
     padding: 10px 25px;
+}
+
+.main{
+    width: 1146px;
+    
 }
