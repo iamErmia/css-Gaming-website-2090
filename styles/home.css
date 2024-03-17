@@ -198,8 +198,8 @@
   position: absolute;
 }
 
-.recent_projects{
-    margin-bottom: 100px;
+.recent_projects {
+  margin-bottom: 100px;
 }
 
 .recent-text {
@@ -219,8 +219,8 @@
   margin-bottom: 35px;
 }
 
-.recent-imgs{
-    margin-bottom: 50px;
+.recent-imgs {
+  margin-bottom: 50px;
 }
 
 .first-row {
@@ -310,28 +310,70 @@
   transition-duration: 200ms;
 }
 
-.see-all-recent{
-    text-align: center;
-    background-color: #5141aa;
-    border-radius: 10px;
-    padding: 10px 20px;
-    width: 7%;
-    margin-right: auto;
-    margin-left: auto;
+.see-all-recent {
+  text-align: center;
+  background-color: #5141aa;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 7%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.subscribe-txt{
-    margin-bottom: 100px;
+.subscribe-txt {
+  margin-bottom: 50px;
 }
 
-.subscribe-title{
-    font-weight: bold;
-    font-size: x-large;
-    margin-bottom: 25px;
+.subscribe-title {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 25px;
 }
 
-.subscribe-desc{
-    width: 50%;
-    line-height: 220%;
+.subscribe-desc {
+  width: 50%;
+  line-height: 220%;
 }
 
+.loop-box {
+  background-color: #1c1407;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.loop-title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.loop-description {
+  width: 70%;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.email-box{
+    color: #898989;
+    background-color: white;
+    width: 35%;
+    height: 48px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+}
+
+.continue{
+    background-color: #fa8305;
+    color: white;
+    font-size: small;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
