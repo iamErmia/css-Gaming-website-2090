@@ -53,6 +53,45 @@
 }
 
 .main{
-    width: 1146px;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.major{
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.promotion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proved-by > b{
+    font-weight: bold;
+    color: #FA8305;
+}
+
+.pro-img{
+    width: 60%;
+    height: 60%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.get-details{
+    background-color: #FA8305;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+
