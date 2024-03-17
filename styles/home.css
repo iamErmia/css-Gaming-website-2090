@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px 35px;
+  margin: 15px 55px;
 }
 
 .items {
@@ -96,7 +96,6 @@
 .trends {
   width: auto;
   margin-bottom: 100px;
-  /* may need to be flexed on column direction*/
 }
 
 .title-and-all {
@@ -115,13 +114,11 @@
 .trend-cards {
   display: flex;
   justify-content: space-between;
-  /* may need to be flexed on column direction*/
 }
 
 .card-box {
   width: 251px;
   height: 277px;
-  background-color: white;
   border-radius: 15px;
 }
 
@@ -149,3 +146,55 @@
   gap: 15px;
 }
 
+.dummy_text{
+    position: relative;
+}
+
+.dummy{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    line-height: 190%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.dummy-title{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+
+.dummy-stuff{
+    width: 50%;
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+
+.dummy-img-dot{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.dummy-box{
+    width: 1146px;
+    height: 462px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.dummy-img{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+
+.dummy-dots{
+    position: absolute;    
+}
