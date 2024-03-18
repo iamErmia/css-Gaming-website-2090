@@ -184,6 +184,7 @@
 .black-belt {
   width: 100%vw;
   background-color: #1c140f;
+  margin-bottom: 100px;
 }
 
 .belt-details {
@@ -215,4 +216,57 @@
 
 .belt-description{
     line-height: 200%;
+    font-weight: lighter;
 }
+
+.our-team{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.team-sec-head{
+    margin-bottom: 50px;
+}
+
+.team-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.black-card{
+    background-color: #1c140f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 253px;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.black-card:hover{
+    scale: 105%;
+    transition-duration: 200ms;
+}
+
+
+.mem-img-box{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mem-img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.mem-txt{
+    text-align: center;
+}
+
