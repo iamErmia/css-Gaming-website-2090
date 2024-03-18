@@ -1,0 +1,61 @@
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: regular;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+.gamify-page {
+  background-color: #3b2a9f;
+  font-family: poppins;
+  color: white;
+  min-width: 768px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 55px;
+}
+
+.nav-home-button {
+    text-decoration: none;
+    color: white;
+}
+
+.game-page-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+  align-items: center;
+}
+
+.nav-titles {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+.nav-home-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-button {
+  color: white;
+  text-decoration: none;
+}
+
+.page_theme {
+  background-color: #fa8305;
+  border-radius: 15px;
+  padding: 10px 25px;
+}
