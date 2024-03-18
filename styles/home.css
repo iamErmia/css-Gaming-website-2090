@@ -342,6 +342,7 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 25px;
+  margin-bottom: 150px;
 }
 
 .loop-title {
@@ -356,24 +357,105 @@
   font-size: small;
 }
 
-.email-box{
-    color: #898989;
-    background-color: white;
-    width: 35%;
-    height: 48px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 30px;
-    padding-left: 30px;
-    border-radius: 25px;
+.email-box {
+  color: #898989;
+  background-color: white;
+  width: 35%;
+  height: 48px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
 }
 
-.continue{
-    background-color: #fa8305;
-    color: white;
-    font-size: small;
-    padding: 10px 15px;
-    border-radius: 15px;
+.continue {
+  background-color: #fa8305;
+  color: white;
+  font-size: small;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.footer {
+  background-color: #1c1407;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.footer-details {
+  /*may be needed to declare display flex*/
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: last baseline;
+}
+
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 35%;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.logo-desc {
+  font-size: small;
+}
+
+.about_us{
+  width: 20%;
+}
+
+.about-header {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+.about-list {
+  list-style-type: none;
+  line-height: 220%;
+  font-weight: lighter;
+}
+
+.contact_us{
+  width: 40%;
+}
+
+.contact-head {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.contact-desc {
+  width: 40%;
+  font-size: small;
+  margin-bottom: 5px;
+  line-height: 220%;
+}
+
+.phone-number {
+  color: #fa8305;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
 }
