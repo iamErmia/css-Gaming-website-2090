@@ -414,6 +414,11 @@
 
 .logo-desc {
   font-size: small;
+  margin-bottom: 50px;
+}
+
+.li-logo{
+  font-size: smaller;
 }
 
 .about_us{
@@ -458,4 +463,12 @@
 .social {
   display: flex;
   justify-content: space-around;
+}
+
+.license{
+  background-color: #1c1407;
+  text-align: center;
+  border-top: 1px solid #898989;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
