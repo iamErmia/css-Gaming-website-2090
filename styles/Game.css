@@ -81,6 +81,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
+  align-items: center;
 }
 
 .description {
@@ -92,6 +93,7 @@
 
 .game-promotion-img {
   width: 45%;
+  border-radius: 20px;
 }
 
 .home-games {
@@ -106,7 +108,7 @@
   width: 28%;
   background-color: #fa8305;
   padding: 10px 20px;
-  border-radius: 15px;
+  border-radius: 35px;
 }
 
 .work-with-us {
@@ -207,66 +209,224 @@
   object-position: center;
 }
 
-.belt-text{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.belt-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.belt-description{
-    line-height: 200%;
-    font-weight: lighter;
+.belt-description {
+  line-height: 200%;
+  font-weight: lighter;
 }
 
-.our-team{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+.our-team {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
 }
 
-.team-sec-head{
-    margin-bottom: 50px;
+.team-sec-head {
+  margin-bottom: 50px;
 }
 
-.team-cards{
-    display: flex;
-    justify-content: space-around;
+.team-cards {
+  display: flex;
+  justify-content: space-around;
 }
 
-.black-card{
-    background-color: #1c140f;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 253px;
-    width: 20%;
-    border-radius: 15px;
+.black-card {
+  background-color: #1c140f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 253px;
+  width: 20%;
+  border-radius: 15px;
 }
 
-.black-card:hover{
-    scale: 105%;
-    transition-duration: 200ms;
+.black-card:hover {
+  scale: 105%;
+  transition-duration: 200ms;
 }
 
-
-.mem-img-box{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
+.mem-img-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.mem-img{
-    object-fit: cover;
-    object-position: center;
+.mem-img {
+  object-fit: cover;
+  object-position: center;
 }
 
-.mem-txt{
+.mem-txt {
+  text-align: center;
+}
+
+.subscribe {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe-txt {
+  margin-bottom: 50px;
+}
+
+.subscribe-title {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 25px;
+}
+
+.subscribe-desc {
+  width: 50%;
+  line-height: 220%;
+}
+
+.loop-box {
+  background-color: #1c1407;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 150px;
+}
+
+.loop-title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.loop-description {
+  width: 70%;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.email-box {
+  color: #898989;
+  background-color: white;
+  width: 35%;
+  height: 48px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+}
+
+.continue {
+  background-color: #fa8305;
+  color: white;
+  font-size: small;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+
+.footer {
+  background-color: #1c1407;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.footer-details {
+  /*may be needed to declare display flex*/
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: last baseline;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 35%;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.logo-desc {
+  font-size: small;
+  margin-bottom: 50px;
+}
+
+.li-logo {
+  font-size: smaller;
+}
+
+.about_us {
+  width: 20%;
+}
+
+.about-header {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+.about-list {
+  list-style-type: none;
+  line-height: 220%;
+  font-weight: lighter;
+}
+
+.contact_us {
+  width: 40%;
+}
+
+.contact-head {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.contact-desc {
+  width: 40%;
+  font-size: small;
+  margin-bottom: 5px;
+  line-height: 220%;
+}
+
+.phone-number {
+  color: #fa8305;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.license{
+    background-color: #1c1407;
     text-align: center;
-}
-
+    border-top: 1px solid #898989;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
