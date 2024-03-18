@@ -67,13 +67,16 @@
 }
 
 .major {
-  width: 80vw;
-  margin-top: 100px;
+  /*width: 80vw;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;*/
+  margin-top: 100px;
 }
 
 .promotion {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,17 +109,20 @@
   border-radius: 15px;
 }
 
-.work-with-us{
-    margin-bottom: 100px;
+.work-with-us {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
 }
 
-.why-work-title{
-    margin-bottom: 50px;
+.why-work-title {
+  margin-bottom: 50px;
 }
 
-.black-cards{
-    display: flex;
-    justify-content: center;
+.black-cards {
+  display: flex;
+  justify-content: center;
 }
 
 .work-card {
@@ -130,18 +136,18 @@
   margin-right: auto;
 }
 
-.work-card:hover{
-    scale: 105%;
-    transition-duration: 200ms;
+.work-card:hover {
+  scale: 105%;
+  transition-duration: 200ms;
 }
 
-.work-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    gap: 20px;
+.work-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  gap: 20px;
 }
 
 .color-work-title1 {
@@ -156,7 +162,7 @@
 .color-work-title2 {
   font-weight: lighter;
   text-align: center;
-  background-color: #DC42001C;
+  background-color: #dc42001c;
   width: 50%;
   padding: 10px 15px;
   border-radius: 10px;
@@ -165,12 +171,48 @@
 .color-work-title3 {
   font-weight: lighter;
   text-align: center;
-  background-color: #00DC8D1C;
+  background-color: #00dc8d1c;
   width: 50%;
   padding: 10px 15px;
   border-radius: 10px;
 }
 
-.work-descrption{
+.work-descrption {
+  line-height: 200%;
+}
+
+.black-belt {
+  width: 100%vw;
+  background-color: #1c140f;
+}
+
+.belt-details {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.belt-img-box {
+  width: 80%;
+  height: 450px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.belt-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.belt-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.belt-description{
     line-height: 200%;
 }
